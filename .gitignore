@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Build output
+dist/
+build/
+client/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploads (user resumes)
+server/uploads/
+
+# Machine-specific corporate CA bundle (exported from the local cert store)
+server/certs/
+
+# Personal resume (contains PII; keep out of the repo)
+*.pdf
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
